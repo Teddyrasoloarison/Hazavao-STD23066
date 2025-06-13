@@ -15,7 +15,6 @@ public class ChatGptClientService {
     public String getDefinition(String teny) {
         String prompt = "Hazavao amin'ny teny malagasy ilay teny hoe \"" + teny + "\".";
 
-        // Clé API directement dans le code (⚠️ attention à ne pas la compromettre)
         String apiKey = "API KEY";
         String apiUrl = "https://api.openai.com/v1/chat/completions";
 
